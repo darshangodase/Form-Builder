@@ -1,0 +1,70 @@
+{
+  "settings": {
+    "title": "Newsletter Signup",
+    "description": "Stay updated with our latest news, updates, and exclusive offers.",
+    "submitButtonText": "Subscribe",
+    "successMessage": "Thank you for subscribing! Please check your email to confirm your subscription."
+  },
+  "fields": [
+    {
+      "id": "email",
+      "type": "email",
+      "label": "Email Address",
+      "required": true,
+      "placeholder": "Enter your email address"
+    },
+    {
+      "id": "firstName",
+      "type": "text",
+      "label": "First Name",
+      "required": false,
+      "placeholder": "Enter your first name"
+    },
+    {
+      "id": "lastName",
+      "type": "text",
+      "label": "Last Name",
+      "required": false,
+      "placeholder": "Enter your last name"
+    },
+    {
+      "id": "interests",
+      "type": "checkbox",
+      "label": "I'm interested in",
+      "required": true,
+      "checkboxOptions": [
+        "Product Updates",
+        "Industry News",
+        "Tips & Tutorials",
+        "Special Offers",
+        "Events & Webinars",
+        "Case Studies",
+        "Company News"
+      ]
+    },
+    {
+      "id": "frequency",
+      "type": "dropdown",
+      "label": "Email Frequency",
+      "required": true,
+      "options": [
+        "Daily Digest",
+        "Weekly Roundup",
+        "Monthly Newsletter",
+        "Important Updates Only"
+      ]
+    },
+    {
+      "id": "preferences",
+      "type": "checkbox",
+      "label": "Additional Preferences",
+      "required": false,
+      "checkboxOptions": [
+        "Personalized Content",
+        "Partner Offers",
+        "Survey Participation",
+        "Community Updates"
+      ]
+    }
+  ]
+} 

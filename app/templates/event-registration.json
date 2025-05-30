@@ -1,0 +1,71 @@
+{
+  "settings": {
+    "title": "Event Registration",
+    "description": "Register for our upcoming event. Join us for an exciting experience!",
+    "submitButtonText": "Register Now",
+    "successMessage": "Thank you for registering! We'll send you event details shortly."
+  },
+  "fields": [
+    {
+      "id": "fullName",
+      "type": "text",
+      "label": "Full Name",
+      "required": true,
+      "placeholder": "Enter your full name"
+    },
+    {
+      "id": "email",
+      "type": "email",
+      "label": "Email Address",
+      "required": true,
+      "placeholder": "Enter your email address"
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "label": "Phone Number",
+      "required": true,
+      "placeholder": "Enter your phone number"
+    },
+    {
+      "id": "company",
+      "type": "text",
+      "label": "Company/Organization",
+      "required": false,
+      "placeholder": "Enter your company name"
+    },
+    {
+      "id": "ticketType",
+      "type": "dropdown",
+      "label": "Ticket Type",
+      "required": true,
+      "options": [
+        "General Admission",
+        "VIP Pass",
+        "Student Pass",
+        "Early Bird",
+        "Group Ticket"
+      ]
+    },
+    {
+      "id": "dietary",
+      "type": "checkbox",
+      "label": "Dietary Requirements",
+      "required": false,
+      "checkboxOptions": [
+        "Vegetarian",
+        "Vegan",
+        "Gluten-Free",
+        "Dairy-Free",
+        "Nut Allergy"
+      ]
+    },
+    {
+      "id": "specialNeeds",
+      "type": "textarea",
+      "label": "Special Requirements",
+      "required": false,
+      "placeholder": "Please let us know if you have any special requirements or accessibility needs"
+    }
+  ]
+} 

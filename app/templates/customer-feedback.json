@@ -1,0 +1,113 @@
+{
+  "settings": {
+    "title": "Customer Feedback",
+    "description": "Help us improve by sharing your experience with our products and services.",
+    "submitButtonText": "Submit Feedback",
+    "successMessage": "Thank you for your feedback! Your input helps us improve our services."
+  },
+  "fields": [
+    {
+      "id": "name",
+      "type": "text",
+      "label": "Your Name",
+      "required": false,
+      "placeholder": "Enter your name (optional)"
+    },
+    {
+      "id": "email",
+      "type": "email",
+      "label": "Email Address",
+      "required": false,
+      "placeholder": "Enter your email (optional)"
+    },
+    {
+      "id": "product",
+      "type": "dropdown",
+      "label": "Product/Service",
+      "required": true,
+      "options": [
+        "Product A",
+        "Product B",
+        "Service X",
+        "Service Y",
+        "Other"
+      ]
+    },
+    {
+      "id": "rating",
+      "type": "dropdown",
+      "label": "Overall Rating",
+      "required": true,
+      "options": [
+        "5 - Excellent",
+        "4 - Very Good",
+        "3 - Good",
+        "2 - Fair",
+        "1 - Poor"
+      ]
+    },
+    {
+      "id": "categories",
+      "type": "checkbox",
+      "label": "What did you like?",
+      "required": false,
+      "checkboxOptions": [
+        "Product Quality",
+        "Customer Service",
+        "Value for Money",
+        "Ease of Use",
+        "Features",
+        "Design",
+        "Performance",
+        "Documentation"
+      ]
+    },
+    {
+      "id": "improvements",
+      "type": "checkbox",
+      "label": "What could be improved?",
+      "required": false,
+      "checkboxOptions": [
+        "Product Quality",
+        "Customer Service",
+        "Value for Money",
+        "Ease of Use",
+        "Features",
+        "Design",
+        "Performance",
+        "Documentation"
+      ]
+    },
+    {
+      "id": "feedback",
+      "type": "textarea",
+      "label": "Detailed Feedback",
+      "required": true,
+      "placeholder": "Please share your detailed feedback, suggestions, or concerns..."
+    },
+    {
+      "id": "recommend",
+      "type": "dropdown",
+      "label": "Would you recommend us?",
+      "required": true,
+      "options": [
+        "Definitely",
+        "Probably",
+        "Not Sure",
+        "Probably Not",
+        "Definitely Not"
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "checkbox",
+      "label": "Contact Preferences",
+      "required": false,
+      "checkboxOptions": [
+        "Email",
+        "Phone",
+        "Do not contact me"
+      ]
+    }
+  ]
+} 

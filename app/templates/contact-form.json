@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "title": "Contact Us",
+    "description": "Get in touch with our team. We'd love to hear from you!",
+    "submitButtonText": "Send Message",
+    "successMessage": "Thank you for your message. We'll get back to you soon!"
+  },
+  "fields": [
+    {
+      "id": "name",
+      "type": "text",
+      "label": "Full Name",
+      "required": true,
+      "placeholder": "Enter your full name"
+    },
+    {
+      "id": "email",
+      "type": "email",
+      "label": "Email Address",
+      "required": true,
+      "placeholder": "Enter your email address"
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "label": "Phone Number",
+      "required": false,
+      "placeholder": "Enter your phone number"
+    },
+    {
+      "id": "subject",
+      "type": "dropdown",
+      "label": "Subject",
+      "required": true,
+      "options": [
+        "General Inquiry",
+        "Support Request",
+        "Feedback",
+        "Partnership Opportunity",
+        "Other"
+      ]
+    },
+    {
+      "id": "message",
+      "type": "textarea",
+      "label": "Message",
+      "required": true,
+      "placeholder": "Enter your message here..."
+    }
+  ]
+} 

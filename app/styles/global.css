@@ -1,0 +1,73 @@
+/* Base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styles */
+@layer utilities {
+  /* Light mode scrollbar */
+  .custom-scrollbar {
+    scrollbar-width: thin !important;
+    scrollbar-color: #E5E7EB transparent !important;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #E5E7EB !important;
+    border-radius: 20px !important;
+    border: 2px solid transparent !important;
+    background-clip: padding-box !important;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #D1D5DB !important;
+    border: 2px solid transparent !important;
+    background-clip: padding-box !important;
+  }
+}
+
+/* Dark mode scrollbar styles */
+.dark {
+  scrollbar-width: thin !important;
+  scrollbar-color: #4B5563 transparent !important;
+}
+
+.dark * {
+  scrollbar-width: thin !important;
+  scrollbar-color: #4B5563 transparent !important;
+}
+
+.dark ::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #4B5563 !important;
+  border-radius: 20px !important;
+  border: 2px solid transparent !important;
+  background-clip: padding-box !important;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: #6B7280 !important;
+  border: 2px solid transparent !important;
+  background-clip: padding-box !important;
+}
+
+/* Apply custom scrollbar to all scrollable elements */
+* {
+  @apply custom-scrollbar;
+} 
