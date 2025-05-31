@@ -1,5 +1,6 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
-import { persistStore, persistReducer, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist';
+import { persistStore, persistReducer } from 'redux-persist';
+import { FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist';
 import createWebStorage from 'redux-persist/lib/storage/createWebStorage';
 import authReducer from './slices/authSlice';
 
