@@ -7,8 +7,6 @@
   NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
 
-[[plugins]]
-  package = "@netlify/remix-adapter"
 
 [[redirects]]
   from = "/*"
