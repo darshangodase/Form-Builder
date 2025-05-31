@@ -5,7 +5,7 @@ module.exports = {
   serverBuildTarget: "netlify",
   server: "./server.js",
   appDirectory: "app",
-  assetsBuildDirectory: "public/build",
+  assetsBuildDirectory: "build/client/build",
   publicPath: "/build/",
   future: {
     v2_errorBoundary: true,
@@ -19,5 +19,6 @@ module.exports = {
     v3_throwAbortReason: true
   },
   tailwind: true,
-  postcss: true
+  postcss: true,
+  serverDependenciesToBundle: [/.*/]
 }; 
