@@ -3,7 +3,8 @@ module.exports = {
     appDirectory: "app",
     assetsBuildDirectory: "public/build",
     publicPath: "/build/",
-    serverBuildTarget: "netlify",
-    serverModuleFormat: "cjs",
+    serverBuildTarget: "vercel",
+    serverModuleFormat: "esm",
+    serverPlatform: "node",
   };
   
