@@ -5,7 +5,6 @@ import fs from "fs/promises";
 import path from "path";
 import Navbar from "~/components/Navbar";
 import { PlusIcon } from "@heroicons/react/24/outline";
-import { LoaderFunctionArgs } from "@remix-run/node";
 import { useAppSelector } from "~/hooks";
 import { useEffect } from "react";
 
