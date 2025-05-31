@@ -4,10 +4,9 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix build",
-    "dev": "remix dev",
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
     "start": "remix-serve ./build/server/index.js",
-    "lint": "...",
     "typecheck": "tsc"
   },
   "dependencies": {
